@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>Squawk</title>
+  </head>
+  <body>
+    <div id="Images"></div>
+    <div id="Reservations"></div>
+    <div id="Reviews"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+      ReactDOM.render(
+        React.createElement(),
+        document.getElementById('Images')
+      );
+      ReactDOM.render(
+        React.createElement(CountDown),
+        document.getElementById('Reservations')
+      );
+      ReactDOM.render(
+        React.createElement(Related),
+        document.getElementById('Reviews')
+      );
+    </script>
+  </body>
+</html>
