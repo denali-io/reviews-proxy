@@ -4,9 +4,9 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/Denali-Outdoors/reviews-server
+  - https://github.com/Denali-Outdoors/reservations-server
+  - https://github.com/Denali-Outdoors/image-carousel-server
   - https://github.com/teamName/repo
 
 ## Table of Contents
